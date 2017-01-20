@@ -12,7 +12,7 @@ public CoursesPo(WebDriver driver){
 	this.driver=driver;
 	PageFactory.initElements(driver, this);
 }
-// To identify Courses Text
+// To identify Courses Text1
 	@FindBy(xpath="//div[contains(text(),'Courses')]")
 	private WebElement eleCourseText;
 	public WebElement getEleCourseText(){
