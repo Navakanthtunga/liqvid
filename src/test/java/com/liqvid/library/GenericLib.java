@@ -88,7 +88,7 @@ public class GenericLib {
 		try {
 
 			FileInputStream fis = new FileInputStream(sTestDataFile);
-			Workbook wb = (Workbook) WorkbookFactory.create(fis);
+			Workbook wb =  WorkbookFactory.create(fis);
 			Sheet sht = wb.getSheet("TestData");
 			int iRowNum = sht.getLastRowNum();
 			int k = 0;

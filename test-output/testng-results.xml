@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13" started-at="2017-01-20T06:58:38Z" finished-at="2017-01-20T06:58:38Z">
+  <suite name="Default suite" duration-ms="18327" started-at="2017-01-24T07:35:08Z" finished-at="2017-01-24T07:35:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13" started-at="2017-01-20T06:58:38Z" finished-at="2017-01-20T06:58:38Z">
+    <test name="Default test" duration-ms="18327" started-at="2017-01-24T07:35:08Z" finished-at="2017-01-24T07:35:27Z">
+      <class name="com.liqvid.scripts.VerifyElementsSignIn">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.liqvid.scripts.VerifyElementsSignIn@5f341870]" name="setUp" is-config="true" duration-ms="7956" started-at="2017-01-24T13:05:09Z" finished-at="2017-01-24T13:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignInPage()[pri:0, instance:com.liqvid.scripts.VerifyElementsSignIn@5f341870]" name="verifySignInPage" duration-ms="10336" started-at="2017-01-24T13:05:16Z" finished-at="2017-01-24T13:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.liqvid.scripts.VerifyElementsSignIn@5f341870]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-01-24T13:05:27Z" finished-at="2017-01-24T13:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.liqvid.scripts.VerifyElementsSignIn -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
