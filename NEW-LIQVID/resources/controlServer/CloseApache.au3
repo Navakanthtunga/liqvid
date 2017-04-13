@@ -1,0 +1,5 @@
+ProcessClose("httpd.exe")
+ProcessClose("‪mysqld.exe")
+WinActivate("Open File - Security Warning")
+ControlFocus("Open File - Security Warning","","Button1")
+ControlClick("Open File - Security Warning","","Button1")
